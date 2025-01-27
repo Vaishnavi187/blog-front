@@ -27,16 +27,16 @@ const navigate=useNavigate()
     <>
     <AppBar position='sticky'  sx={{ backgroundColor: 'black' }}>
         <Toolbar>
-           <Typography sx={{fontSize:15}}  >
+           <Typography sx={{fontSize:13}}  >
            <Button sx={{color:'white'}} LinkComponent={Link} to='/blogs'>Blog App</Button>
             </Typography> 
            {isLogin && (
              <Box display={'flex'} marginLeft='auto' marginRight='auto' >
      
-              <Button sx={{margin:1,color:'white',fontSize:13}} LinkComponent={Link} to='/blogs'>Blogs</Button>
-              <Button sx={{margin:1,color:'white',fontSize:13}} LinkComponent={Link} to='/my-blogs'>My Blogs</Button>
+              <Button sx={{margin:1,color:'white',fontSize:12}} LinkComponent={Link} to='/blogs'>Blogs</Button>
+              <Button sx={{margin:1,color:'white',fontSize:12}} LinkComponent={Link} to='/my-blogs'>My Blogs</Button>
   
-              <Button sx={{margin:1,color:'white',fontSize:13}} LinkComponent={Link} to='/create-blog'>Create Blog</Button>
+              <Button sx={{margin:1,color:'white',fontSize:12}} LinkComponent={Link} to='/create-blog'>Create Blog</Button>
   
               </Box>
            )  
