@@ -25,9 +25,9 @@ const navigate=useNavigate()
     }
   return (
     <>
-    <AppBar position='sticky' >
+    <AppBar position='sticky' style={{ width:"100%",backgroundColor:"black",padding:0,margin:0}} >
         <Toolbar>
-           <Typography sx={{fontSize:13}}  >
+           <Typography sx={{fontSize:13 ,flexGrow:1}}  >
            <Button sx={{color:'white'}} LinkComponent={Link} to='/blogs'>Social</Button>
             </Typography> 
            {isLogin && (
